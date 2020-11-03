@@ -1,0 +1,35 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package programmingschool;
+
+/**
+ *
+ * @author Nedlog
+ */
+public class PrintDayInWord2 {
+   public static void main(String[] args) {
+        int day=9;
+        if(day ==0)
+            System.out.println("Sunday");
+        else if(day ==1)
+            System.out.println("Monday");
+        else if(day ==2)
+            System.out.println("Tuesday");
+        else if(day ==3)
+            System.out.println("Wednesday");
+        else if(day ==4)
+            System.out.println("Thursday");
+        else if(day ==5)
+            System.out.println("Friday");
+        else if(day ==6)
+            System.out.println("Saturday");        
+        else
+            System.out.println("Not a valid Day");
+    }
+    
+}
+
+
